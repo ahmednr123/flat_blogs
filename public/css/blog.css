@@ -1,0 +1,65 @@
+* {
+	font-family: 'Zilla Slab', serif;
+}
+
+body {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 20px;
+	text-align:center;
+}
+
+#name {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Arvo', serif;
+}
+
+#desc {
+	font-style: italic;
+}
+
+#details {
+	margin-top:10px;
+	display: flex;
+	justify-content: center;
+	color: grey;
+}
+
+#email {
+	position: relative;
+	margin-right: 20px;
+}
+
+#email:after {
+	content: '\2022';
+	position: absolute;
+	right: -12px;
+}
+
+article {
+	margin-top:10px;
+	border-top: 1px solid lightgrey;
+	padding: 20px;
+}
+
+article > #date {
+	font-size: 14px;
+	color: grey;
+}
+
+article > #heading {
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+}
+
+article > #content > p {
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.5;
+}
